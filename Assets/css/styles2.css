@@ -1,0 +1,86 @@
+/* ----------MODELO 2---------- */
+body {
+  background-image: url('../img/bg-m2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.parte-superior{
+display: flex;
+width: 100%;
+}
+
+
+.titulo-m2 {
+  display: flex;
+  width: 30%;
+  margin-top: 3%;
+  margin-left: 8%;
+  flex-direction:column;
+  flex-wrap: nowrap;
+}
+
+.titulo-m2 h1 {
+  font-size: 84px;
+  color: #fff;
+  font-family: 'Trebuchet MS', sans-serif;
+  word-wrap: break-word;
+}
+
+.titulo-m2 p {
+  width: 72%;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.titulo-m2 button {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  height: 60px;
+  max-width: 200px;
+  border-radius: 20px;
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.imagem {
+  display: flex;
+  width: 40%;
+  height: 600px;
+  margin-left: 12%;
+  margin-top: 10%;
+}
+
+.alinhamento-cards {
+  display: flex;
+  /* margin-right: 8%; */
+  transform: translate(-8%, -65%);
+  justify-content: space-evenly;
+  margin: 8%;
+}
+
+.card-m2  {
+  background-color: white;
+  width: 400px;
+}
+
+.card-m2 h3 {
+  font-size: 36px;
+  text-align: left;
+  padding: 10px;
+}
+
+.card-m2 p {
+  font-size: 18px;
+  text-align:start;
+  padding: 15px;
+}
+
+.seta {
+  display: inline-block;
+  font-size: 50px;
+  color: #000;
+  text-decoration:solid;
+  padding: 15px;
+}
